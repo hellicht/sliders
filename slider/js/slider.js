@@ -26,12 +26,14 @@ function startSlider(){
 }
 
 function prev(){
-	newSlide = sliderInt -1;
+	sliderInt = slider.Next;
+	newSlide = sliderNext -1;
 	showSlide(newSlide);
 }
 
 function next(){
-	newSlide = sliderInt +1;
+	sliderInt = slider.Next;
+	newSlide = sliderNext +1;
 	showSlide(newSlide);
 }
 
