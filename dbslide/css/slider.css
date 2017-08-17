@@ -1,0 +1,35 @@
+*{
+	background-color:lightgray;
+}
+.wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
+#slider{
+	width:960px;
+	height:540px;
+	overflow:hidden;
+	margin: 30px auto;
+}
+
+#slider > img{
+	width:960px;
+	height:540px;
+	float:left;
+	display:0;
+}
+a{
+	padding:5px 10px;
+	background-color:#00FFFF;
+	margin-top:30px;
+	text-decoration:none;
+	color:#666;
+	font-size:1.5em;
+}
+a.left{
+	float:left;
+}
+a.right{
+	float:right;
+}
